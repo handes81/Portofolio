@@ -52,44 +52,100 @@ table {
 /*Tampilan Web*/
 
 .fix{
-    width: 100%;
     height: 80px;
-    background-color: black;
+    width: 100%;
+    background-color: #010727 ;
+    
     position: fixed;
-    color: white;
-    text-decoration: none;
 }
 
-.fix .tengah ul li{
+.fix .tengah ul{
+    
+    margin-top: 24px;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;
     color: white;
 
 }
-.fix .tengah{
-    margin: auto;
-    height: 20px;
-    width: 500px;
-}
 
-a{
+.menu{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+}
+.menu li{
+    font-size: 25px;
+    display: inline-block;
+
+}
+.menu li a{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 7px;
     color: white;
     text-decoration: none;
-    margin-left: 10px;
-    padding: 3px 3px ;
+    border-radius: 5px;
+    padding: 3px 3px;
 }
-a:hover{
- background-color: blue;
+.awal{
+    margin-left: 600px
+}
+.menu li a:hover{
+    background-color: #303549 ;
 }
 
 .batas{
     width: 100%;
-    height: 80px;
+    height: 35px;
 }
+
+
+/*Tengah*/
 .container{
-    width: 400px;
-    height: 700px;
-    background-color: white;
+    width: 100%px;
+    height: 750px;
     margin: auto;
+    background-color: #D3D9F9 ;
+   
+}
+.sambutan{
+    font-family: monospace;
+    margin-top: 250px;
+    position: absolute;
+    color: #303549;
+    font-size: 70px;
+    margin-left: 50px;
+}
+.kata{
+    font-family: monospace;
+    margin-top: 350px;
+    position: absolute;
+    color: #303549;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 60px;
+    width: 700px;
+}
+.container .foto{
+    width: 100%px;
+    height: 645px;
+    background-image: url(han.png);
+    background-position: 1000px 1px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    
+}
+.container .garis{
+    
+    height: 2px;
+    width: 300px;
+    background-color: #303549;
+    margin-left: 1000px; 
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-left: 920px; 
+    color: #303549;
+    font-size: 30px;
 }
