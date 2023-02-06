@@ -54,8 +54,8 @@ table {
 .fix{
     height: 80px;
     width: 100%;
-    background-color: #010727 ;
-    
+    background-color: #111111 ;
+    z-index: 1;
     position: fixed;
 }
 
@@ -63,7 +63,7 @@ table {
     
     margin-top: 24px;
     display: inline-block;
-    color: white;
+    color: #ece8e1;
 
 }
 
@@ -104,22 +104,25 @@ table {
     width: 100%px;
     height: 750px;
     margin: auto;
-    background-color: #D3D9F9 ;
+    background-color: #ece8e1 ;
+    position: relative;
+    top: 35px;
    
 }
 .sambutan{
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 250px;
     position: absolute;
-    color: #303549;
+    color: #0f1923;
     font-size: 70px;
     margin-left: 50px;
+    font-weight: bold;
 }
 .kata{
     font-family: monospace;
     margin-top: 350px;
     position: absolute;
-    color: #303549;
+    color: #ff4655;
     font-size: 30px;
     font-style: italic;
     margin-left: 60px;
@@ -132,13 +135,14 @@ table {
     background-position: 1000px 1px;
     background-size: 300px;
     background-repeat: no-repeat;
+   
     
 }
 .container .garis{
     
     height: 2px;
     width: 300px;
-    background-color: #303549;
+    background-color: white;
     margin-left: 1000px; 
 }
 
@@ -146,6 +150,16 @@ table {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
     margin-left: 920px; 
-    color: #303549;
+    color: #FFD700;
     font-size: 30px;
+}
+
+.handes{
+    position: absolute;
+    font-size: 300px;
+    top: 39px;
+    left: 170px;
+    text-shadow: -1px 0 rgba(0, 0, 0, 0.1), 0 1px rgba(0, 0, 0, 0.1), 1px 0 rgba(0, 0, 0, 0.1), 0 -1px rgba(0, 0, 0, 0.1);
+    color: #ece8e1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
